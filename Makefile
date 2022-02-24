@@ -16,8 +16,11 @@ setup:
 test: setup
 	@$(IN_ENV) pytest -vv .
 
-example: setup
-	@$(IN_ENV) cron-explainer "*/15 0 1,15 * 1-5 /usr/bin/find"
+format-code:
+	@$(IN_ENV) black .
 
 shell: setup
 	@$(IN_ENV) python
+
+example: setup
+	@$(IN_ENV) cron-explainer "*/15 0 1,15 * 1-5 /usr/bin/find"

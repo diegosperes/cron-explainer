@@ -22,4 +22,4 @@ def test_cron_job_day_week(cron_job: CronJob):
 
 
 def test_cron_job_command(cron_job: CronJob):
-    assert cron_job.command == '/usr/bin/find'
+    assert cron_job.command == "/usr/bin/find"
