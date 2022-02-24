@@ -1,0 +1,8 @@
+language: python
+
+python:
+        "3.9"
+instal:
+        - make setup
+script:
+        - make test
