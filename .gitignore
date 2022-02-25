@@ -1,2 +1,3 @@
 .env*
 Cron_Explainer.egg-info
+__pycache__
