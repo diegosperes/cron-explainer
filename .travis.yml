@@ -5,4 +5,5 @@ python:
 instal:
         - make setup
 script:
+        - make check-format-code
         - make test

@@ -19,6 +19,9 @@ test: setup
 format-code:
 	@$(IN_ENV) black .
 
+check-format-code:
+	@$(IN_ENV) black --check .
+
 shell: setup
 	@$(IN_ENV) python
 
