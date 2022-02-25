@@ -1,6 +1,6 @@
-# Cron Explainer
+# Cron Explainer ![travis-ci](https://app.travis-ci.com/diegosperes/cron-explainer.svg?branch=master)
 
-It is a cli command which generate a human redable output from the cron expression making easier to understand when the command will execute.
+It is a cli command which generate a human readable output from the cron expression making easier to understand when the command will execute.
 
     $ cron-explainer "*/15 0 1,15 * 1-5 /usr/bin/find"
 
